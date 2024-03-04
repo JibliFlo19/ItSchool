@@ -1,0 +1,155 @@
+body{
+    background-color:#141e4c;
+    
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+nav{
+    background-color: #141e4c;
+    padding: 16px 230px;
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+}
+.navlist{
+    display: flex;
+    justify-content: space-between;
+}
+.navlist-home{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.navlist-home a{
+
+    color: white;
+    text-decoration: none; 
+}
+.btn-dropdown{
+    background-color: transparent;
+    border: none;
+}
+.dropdown-menu-costem{
+    background-color: #141e4c;
+    color: white;
+}
+.btn.show{
+    background-color:transparent;
+}
+.btn:hover{
+    background-color:transparent;
+    color: orange;
+
+}
+.dropdown-item:hover{
+    color:orange;
+    background-color: #141e4c;
+
+}
+
+
+
+.h1-home{
+    display: flex;
+    justify-content: center;
+    padding-top: 200px;
+    padding-bottom: 130px;
+
+}
+section h1{
+    color: white;
+    font-weight: bold;
+    font-size: 70px;
+
+}
+
+
+
+
+.cursuri{
+    background-color: white;
+    width: 100%;
+    padding-bottom: 50px;
+}
+.cursuri h1{
+    color: #141e4c;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+.bold {
+    font-weight: bold;
+}
+.cursuri p{
+    color: black;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 10px;
+}
+.cursuri-card{
+    display: flex;
+    justify-content:space-between
+}
+.card-title {
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding-top: 20px;
+    color: #101d42;
+}
+.text-card  { 
+padding-left: 5px;
+
+}
+.certificat{
+    display: flex;
+    justify-content: flex-start;
+}
+.certificat p{
+    color: #666;
+}
+.details-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 2px;
+}
+.details-list li {
+    display: flex;
+    gap: 3px;
+    color: #666;
+}
+.details-list li p {
+    margin-bottom: 10px !important;
+    color: #666;
+}
+.courses-symbols {
+   font-size: 17px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.button {
+    background-color: #2bb686;
+    color: white;
+    text-decoration: none;  
+    text-align: center;
+    border: 2px solid #2bb686 ;
+    border-radius: 5px;
+    padding: 5px 7px;
+}
+
+
+
+
+footer p{
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 0.75rem;
+    padding-top: 2rem;
+    padding-bottom: 1rem; 
+}
+

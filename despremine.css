@@ -1,0 +1,124 @@
+
+* {
+    box-sizing: border-box;
+  }
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+	justify-content: center;
+    background-color: #141e4c;
+
+}
+
+
+
+.left-part{
+    padding: 50px;
+    width: 30%;
+     
+    background-color:#66757F;
+    text-align: center;
+    
+}
+hr {
+    border: 0; /* Elimină stilul implicit al liniei */
+    height: 3px; /* Grosimea liniei */
+    background-color: #141e4c /* Culoarea liniei */
+  }
+img{
+    display: block;
+    padding-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    width: 55%;
+    height: 55%;
+}
+.left-part b {
+    font:bold;
+    padding-top: 50px;
+    font-size: 30px;
+    color: #141e4c
+    
+}
+.left-part h1{
+    font-size: 30px;
+    color: white;
+    
+    
+}
+.list{
+    display: flex;
+	flex-direction: column;
+	align-items: center;
+	align-content: center;
+}
+.list a{
+    color: var(--text-color);
+    display: block;
+    font-size: 14px;
+    transition: all .45s ease;
+
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.list a:hover {
+    color: var(--main-color);
+    transform: translateX(5px);
+}
+
+
+
+
+
+.right-part{
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 50px;
+    width: 70%;
+    height: 100%; 
+    background-color: #55ACEE;
+    text-align:justify ;
+}
+.title {
+    display: flex;
+    align-items: center;
+    color: #141e4c
+
+}
+.about-text{
+    color: white;
+    line-height: 1.8;
+    margin-bottom: 23px;
+}
+.Experience-text{
+    color: white;
+    line-height: 1.8;
+    margin-bottom: 23px;
+}
+.hobbies-text{
+    color: white;
+    line-height: 1.8;
+    margin-bottom: 23px;
+}
+.languages-text{
+    color: white;
+    line-height: 1.8;
+    margin-bottom: 23px;
+}
+.back-home a{
+    background-color: #141e4c;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px; 
+}
+.back-home{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+h2{
+    color: #141e4c;
+}

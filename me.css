@@ -1,0 +1,318 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #141e4c;
+}
+main{
+    background-color: #141e4c;
+    z-index: -1;
+}
+nav{
+    background-color: #141e4c;
+    padding: 16px 230px;
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+}
+.navlist{
+    display: flex;
+    justify-content: space-between;
+}
+.navlist-home{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.navlist-home a{
+
+    color: white;
+    text-decoration: none; 
+}
+.btn-dropdown{
+    background-color: transparent;
+    border: none;
+}
+.dropdown-menu-costem{
+    background-color: #141e4c;
+    color: white;
+}
+.btn.show{
+    background-color:transparent;
+}
+.btn:hover{
+    background-color:transparent;
+    color: orange;
+
+}
+.dropdown-item:hover{
+    color:orange;
+    background-color: #141e4c;
+
+}
+
+
+.name-img-me{
+    padding-top: 120px;
+    padding-bottom: 60px;
+    background-color: #dfedf5;
+    display: flex;
+    justify-content: space-around;
+
+}
+.name{
+    text-align: center;
+    display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+.content-name {
+   color: #141e4c;
+}
+.bar{
+    border: 2px solid #141e4c;
+}
+.content-name h2{
+  padding-top: 20px;
+  font-weight: bold;
+}
+.img-me img{
+    border-radius: 20px;
+    height:480px;
+    width: 400px ;
+    
+}
+
+
+
+.about-me{
+    padding-top: 30px;
+    padding-bottom: 80px;
+    text-align: center;
+    display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+.about{
+    color: white;
+}
+.about h2{
+    padding-bottom: 30px;
+    font-weight: bold;
+}
+.about p{
+    padding: 10px 30px;
+}
+.about-text{
+    display: flex;
+    justify-content: space-around;
+}
+.text{
+    vertical-align: middle;
+    padding-top: 35px;
+    margin: 0px 10px;
+    border: 2px solid #dfedf5;
+    border-radius: 10px;
+    font-size:1.3rem;
+}
+.poza{
+    width: 100%;
+    height: auto;
+    margin-top:25px;
+}
+
+
+.experienta h2{
+    font-weight: bold;
+}
+
+
+
+
+
+.skills{
+    background-color:#141e4c;
+    margin: 40px;
+}
+.my-skills h2{
+    color: white;
+    text-align: center;
+    
+    font-weight: bold;
+    
+}
+.all-skills{
+    display: flex;
+    justify-content: space-around;
+}
+.all-skills h3{
+    color: white;
+}
+.prog-skills li{
+    color: white;
+    padding: 10px 0px;
+    text-decoration: none;
+    list-style: none;
+}
+.soft-skills li{
+    
+    color: white;
+    padding: 10px 0px;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+.contact{
+    background-color: #dfedf5;
+}
+.contact h2{
+    padding: 40px 0px;
+    text-align: center;
+    color:#141e4c;
+    font-weight: bold;
+}
+.contact-me{
+    display: flex;
+    justify-content: space-between;
+}
+.contact-me h3{
+    color:#141e4c;
+}
+.contact-me p{
+    color:#141e4c
+}
+.contact-me ul{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    list-style-type: none;
+}
+.contact-me li{
+    vertical-align: middle;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 0px;
+    padding-top: 20px;
+    
+}
+.contact-me a{
+    text-decoration: none;
+    color: #8e8e8e;
+    font-size: 0.875rem ;
+}
+.contact-form{
+    margin-top: 10px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    
+}
+.contact-form label{
+    font-size: 0.875rem;
+    padding-bottom: 10px;
+    color:#141e4c;
+   
+    
+}
+.contact-form input{
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 1rem;
+}
+.contact-form textarea{
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-family: inherit;
+    height: 90px;
+}
+.buton{
+    font-size: 0.8rem;
+    text-align: center;
+    color:#141e4c;
+    background-color:#2bb686;
+    border: 1px solid #2bb686;
+    border-radius: 5px;
+    margin-top: 5px;
+    padding: 0.5rem;
+    width: 100px;
+}
+
+
+
+
+footer p{
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 0.75rem;
+    padding-top: 2rem;
+    padding-bottom: 1rem; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.experienta {
+    text-align: center;
+    background-color: white;
+    padding-bottom: 30px;
+}
+.experienta h2{
+    color:#141e4c;
+    padding: 30px 0px;
+}
+.card-experienta{
+    display: flex;
+    justify-content: space-between;
+}
+.card{
+    background-color: #dfedf5;
+    color: #141e4c;
+    border: 2px solid #141e4c ;
+    
+}
+.card-text{
+    text-align: left;
+}
+.card-link{
+    background-color:#141e4c;
+    color:white;
+    text-decoration: none;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius:10px;
+    align-items: flex-end;
+}
